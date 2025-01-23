@@ -24,6 +24,6 @@ function checkOrder2 (available, ordered) {
     }
     else console.log("Your order is accepted");
 }
-checkOrder2(3,2);
+checkOrder2(3, 2);
 checkOrder(2, 3);
 checkOrder(2, 0);
