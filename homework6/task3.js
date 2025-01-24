@@ -1,6 +1,6 @@
 function checkOrder (available, ordered) {
     if (ordered === 0) {
-        console.log("Your order is empty.");
+        return "Your order is empty.";
         return;
     }
    if (ordered > available) {
