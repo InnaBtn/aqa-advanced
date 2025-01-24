@@ -4,7 +4,7 @@ function checkOrder (available, ordered) {
         return;
     }
    if (ordered > available) {
-       console.log("Your order is too large, we don't have enough goods.");
+       return "Your order is too large, we don't have enough goods.";
        return;
    }
   return "Your order is accepted";
