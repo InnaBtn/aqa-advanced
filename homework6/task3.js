@@ -22,7 +22,7 @@ function checkOrder2 (available, ordered) {
     else if (ordered > available) {
         return "Your order is too large, we don't have enough goods.";
     }
-    else console.log("Your order is accepted");
+    else return "Your order is accepted";
 }
 checkOrder2(3, 2);
 checkOrder(2, 3);
