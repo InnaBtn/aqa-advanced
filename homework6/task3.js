@@ -7,7 +7,7 @@ function checkOrder (available, ordered) {
        console.log("Your order is too large, we don't have enough goods.");
        return;
    }
-        console.log("Your order is accepted")    
+  return "Your order is accepted";
 }
 checkOrder(2, 3);
 checkOrder(3, 2);
